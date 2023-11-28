@@ -11,13 +11,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Intention with this project is to create a solution that can generate images from users free text input. The solution should be ready to use without any struggle for the user.
+Intention with this project is to create a solution that can generate images from users free text input. The solution should be ready to use without any struggle for the user. <br />
 The container will ask for input, and then store the generated output under a shared folder "output" in the same directory as the user started the container from.
 
-Docker image : https://hub.docker.com/r/martinkarlssonio/genai-image
+##### Docker Image
+https://hub.docker.com/r/martinkarlssonio/genai-image
+
+##### Tech Stack
 The container images is built around PyTorch [ https://pytorch.org ] and Hugging Face [ https://huggingface.co ]
 
-Current model used : PixArt-alpha/pixArt-XL-2-1024-MS [ https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS ]
+##### Model
+pixArt-alpha/pixArt-XL-2-1024-MS [ https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS ]
 
 #### Execution and Input
 <img src="input.png" width="1024" alt="Input Image"/>
