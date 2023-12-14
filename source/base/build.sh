@@ -1,0 +1,1 @@
+docker build -t martinkarlssonio/gen-ai-image:base .
